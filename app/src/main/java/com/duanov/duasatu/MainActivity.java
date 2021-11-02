@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     int waited = 0;
                     // Splash screen pause time
-                    while (waited < 2500) {
-                        sleep(2000);
-                        waited += 2500;
+                    while (waited < 5000) {
+                        sleep(5000);
+                        waited += 5000;
                     }
                     //setelah selesai animasi splash dijalankan maka akan otomatis pindah ke activity/screen Slider
                     //menggunakan intent
